@@ -1,0 +1,11 @@
+[project]
+name = "aprendizaje-face-recog"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "insightface==2.1",
+    "onnxruntime>=1.31.0",
+    "opencv-python>=5.0.0.93",
+]
